@@ -103,7 +103,7 @@
   },
   "url": "https://github.com/cragstone/rol",
   "manifest": "https://github.com/cragstone/rol/releases/latest/download/system.json",
-  "download": "https://github.com/cragstone/rol/releases/download/13.10/system.zip",
+  "download": "https://github.com/cragstone/rol/releases/download/13.10/rol.zip",
   "license": "LICENSE.txt",
   "changelog": "CHANGELOG.md",
   "bugs": "https://github.com/cragstone/rol/issues"
