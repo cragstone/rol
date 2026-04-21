@@ -1,0 +1,110 @@
+{
+  "id": "rol",
+  "title": "Rivers of London",
+  "description": "Rivers of London implementation for FoundryVTT!",
+  "version": "13.10",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Dangermouse",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "Advantages",
+      "type": "Item",
+      "name": "advantages",
+      "path": "packs/advantages.db",
+      "system": "rol",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Armour",
+      "type": "Item",
+      "name": "armour",
+      "path": "packs/armour.db",
+      "system": "rol",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Skills",
+      "type": "Item",
+      "name": "skills",
+      "path": "packs/skills.db",
+      "system": "rol",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Spells",
+      "type": "Item",
+      "name": "spells",
+      "path": "packs/spells.db",
+      "system": "rol",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Weapons",
+      "type": "Item",
+      "name": "weapons",
+      "path": "packs/weapons.db",
+      "system": "rol",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Instructions",
+      "type": "JournalEntry",
+      "name": "instructions",
+      "path": "packs/instructions.db",
+      "system": "rol",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "system/rol.mjs"
+  ],
+  "styles": [
+    "css/rol.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "socket": true,
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "hp",
+  "documentTypes": {
+    "RegionBehavior": {
+      "ChaosiumCanvasInterfaceAmbientLightToggle": {},
+      "ChaosiumCanvasInterfaceDrawingToggle": {},
+      "ChaosiumCanvasInterfaceMapPinToggle": {},
+      "ChaosiumCanvasInterfaceOpenDocument": {},
+      "ChaosiumCanvasInterfacePlaySound": {},
+      "ChaosiumCanvasInterfaceToScene": {},
+      "ChaosiumCanvasInterfaceTileToggle": {}
+    }
+  },
+  "url": "https://github.com/cragstone/rol",
+  "manifest": "https://github.com/cragstone/rol/releases/latest/download/system.json",
+  "download": "https://github.com/cragstone/rol/releases/download/13.10/system.zip",
+  "license": "LICENSE.txt",
+  "changelog": "CHANGELOG.md",
+  "bugs": "https://github.com/cragstone/rol/issues"
+}
